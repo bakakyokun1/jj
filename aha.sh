@@ -3,3 +3,6 @@ tar -xzvf iperf3-3.10.1-static-x86_64.tar.gz
 mv iperf3 /usr/local/bin/
 chmod +x /usr/local/bin/iperf3
 /usr/local/bin/iperf3 --version
+
+
+wget https://github.com/esnet/iperf/releases/download/3.10.1/iperf-3.10.1-linux-x86_64.tar.gz
