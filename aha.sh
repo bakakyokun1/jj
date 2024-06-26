@@ -1,8 +1,1 @@
-wget https://iperf.fr/download/iperf_3.10.1/iperf3-3.10.1-static-x86_64.tar.gz
-tar -xzvf iperf3-3.10.1-static-x86_64.tar.gz
-mv iperf3 /usr/local/bin/
-chmod +x /usr/local/bin/iperf3
-/usr/local/bin/iperf3 --version
-
-
-wget https://github.com/esnet/iperf/releases/download/3.10.1/iperf-3.10.1-linux-x86_64.tar.gz
+I've made a note in the case.  He cant get an IP address on on any of the btVLAN SSIDs because the Access Point cant get an IP address on any of those VLANs.  Tagging looks good on the DSW250-8p-2X so the issue must be upstream.  They should simplify the setup and connect the DSW250-8p-2X directly to the router 
