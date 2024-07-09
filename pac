@@ -18,3 +18,4 @@ sleep 0.05
 beep -f 659 -l 150  # E5
 sleep 0.05
 beep -f 784 -l 150  # G5
+
